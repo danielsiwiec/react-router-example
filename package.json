@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "startDev": "webpack-dev-server --progress --colors",
+    "bundle": "webpack main.js"
   },
   "keywords": [],
   "author": "Dan Siwiec <daniel.siwiec@gmail.com> (http://danielsiwiec.github.io)",
