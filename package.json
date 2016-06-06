@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "startDev": "webpack-dev-server --progress --colors",
+    "startDev": "webpack-dev-server --content-base app --progress --colors",
     "bundle": "webpack --output-path app",
     "start": "npm run bundle && node server.js"
   },
